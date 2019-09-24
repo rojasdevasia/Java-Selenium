@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Olymation">
+  <test name="geico test" preserve-order="true">
+    <classes>
+      <class name="com.geico.tests.geicoHomeTest"/>
+      <class name="com.geico.tests.geicoEnterDetailsTest"/>
+    </classes>
+  </test>
+</suite>
